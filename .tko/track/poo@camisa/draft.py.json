@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-14_14-18-44",
+            "content": "@@ -366,26 +366,24 @@\n return self.\n-__\n tamanho%0A%0Acam\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-19-19",
+            "content": "@@ -302,25 +302,24 @@\n       self._\n-_\n tamanho = va\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-19-28",
+            "content": "@@ -289,23 +289,15 @@\n     \n-    \n return%0A\n-    \n     \n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-19-40",
+            "content": "@@ -296,32 +296,36 @@\n  return%0A        \n+    \n self.__tamanho =\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-19-49",
+            "content": "@@ -411,21 +411,20 @@\n %0A%0Awhile \n-camis\n+roup\n a.getTam\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-20-46",
+            "content": "@@ -328,24 +328,25 @@\n  valor%0A%0A    \n+ \n def getTaman\n@@ -498,15 +498,20 @@\n o = \n+int(\n input()\n+)\n %0A   \n@@ -610,8 +610,9 @@\n manho())\n+%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-21-26",
+            "content": "@@ -497,20 +497,15 @@\n o = \n-int(\n input()\n-)\n %0A   \n@@ -604,9 +604,8 @@\n manho())\n-%0A\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-21-52",
+            "content": "@@ -493,17 +493,28 @@\n manho = \n-G\n+int(input())\n %0A    cam\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-21-59",
+            "content": "@@ -321,18 +321,21 @@\n manho = \n-GG\n+valor\n %0A%0A    de\n@@ -497,20 +497,9 @@\n o = \n-int(input())\n+G\n %0A   \n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_14-23-00",
+            "content": "class Camisa:\n    def __init__(self):\n        self.__tamanho: str = \"\"\n\n    def setTamanho(self, valor: str):\n        tamanhos_validos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        if valor not in tamanhos_validos:\n            print(\"fail: Valor invalido, tente PP, P, M, G, GG ou XG\")\n            return\n        self.__tamanho = GG\n\n    def getTamanho(self):\n        return self.__tamanho\n\ncamisa = Camisa()\n\nwhile camisa.getTamanho() == \"\":\n    print(\"Digite seu tamanho de camisa\")\n    tamanho = int(input())\n    camisa.setTamanho(tamanho)\n\nprint(\"Parabens, voce comprou uma camisa tamanho\", camisa.getTamanho())\n",
+            "lines": "22"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+2025-10-14 12:54:09, MOVE, v:1, k:poo@chinela, mode:DOWN
+2025-10-14 13:12:36, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:12:37, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:12:43, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:12:49, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:13:06, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:13:08, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:13:15, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:13:24, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:13:32, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:14:35, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:14:56, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:14:59, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:15:18, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:15:40, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:16:03, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:16:28, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:16:42, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:16:59, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:22
+2025-10-14 13:17:28, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:17:33, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:17:53, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:20
+2025-10-14 13:17:58, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:18:13, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:18:16, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 13:18:19, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:18:20, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:18:27, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:18:30, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:18:56, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:19:24, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 13:19:36, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:19:36, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:19:38, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 13:19:55, SELF, v:1, k:poo@chinela, rate:100, alone:10, study:15
+2025-10-14 13:20:00, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:20:02, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 13:20:03, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:20:10, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 13:20:52, SELF, v:1, k:poo@chinela, rate:100, alone:10, study:20
+2025-10-14 13:21:03, MOVE, v:1, k:poo@roupa, mode:DOWN
+2025-10-14 13:28:52, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-14 13:28:53, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:23
+2025-10-14 13:29:25, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-14 13:29:48, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:30:00, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-14 13:31:23, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:28
+2025-10-14 13:31:45, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:32:21, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:32:28, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:32:34, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:32:40, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:32:53, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:33:00, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:33:12, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:33:17, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:27
+2025-10-14 13:34:27, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:34:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:35:06, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:06, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:06, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:35:20, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:21, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:21, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:35:43, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:35:52, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:36:46, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:37:14, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:27, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:42, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:37:51, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:29
+2025-10-14 13:37:52, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:53, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:53, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:54, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:37:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 13:38:54, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-14 13:38:56, MOVE, v:1, k:poo@camisa, mode:DOWN
+2025-10-14 13:46:29, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 13:46:30, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:46:47, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:46:56, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:02, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:11, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:47:15, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:17, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:47:19, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:47:21, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:26, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 13:47:33, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:40, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 13:47:46, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 14:17:01, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 14:17:38, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 14:17:49, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:21
+2025-10-14 14:17:51, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 14:18:43, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-14 14:18:44, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:19:19, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:19:28, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:19:40, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:19:49, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:20:46, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:21:26, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:21:52, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:21:59, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:22:42, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-14 14:22:43, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0
+2025-10-14 14:23:00, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:22
+2025-10-14 14:23:07, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-14 14:23:09, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-14 14:23:09, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 14:23:11, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-14 14:23:13, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-14 14:23:14, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-14 14:24:36, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-14 14:24:56, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-14 14:24:57, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:28
+2025-10-14 14:25:05, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 14:25:07, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:28
+2025-10-14 14:25:26, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:28
+2025-10-14 14:25:37, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:40:14, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-14 16:40:14, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:40:38, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:40:39, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:40:45, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:40:55, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:40:56, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:41:24, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:41:25, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:42:31, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:42:31, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:42:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:42:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:42:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:42:32, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:34
+2025-10-14 16:43:15, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:35
+2025-10-14 16:43:15, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:16, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:16, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:17, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:17, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:18, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:19, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:19, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:19, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:20, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0
+2025-10-14 16:43:22, EXEC, v:1, k:poo@roupa, mode:FREE
+2025-10-14 16:45:22, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100, size:35
+2025-10-14 16:45:25, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-14 16:45:50, SELF, v:1, k:poo@roupa, rate:100, iagen:copilot, alone:9, study:40
+2025-10-14 16:46:48, SELF, v:1, k:poo@camisa, rate:100, alone:10, study:30
+2025-10-14 16:46:58, SELF, v:1, k:poo@camisa, rate:100, alone:10, study:20
+2025-10-14 16:53:12, MOVE, v:1, k:poo@relogio, mode:DOWN
+2025-10-14 17:05:57, MOVE, v:1, k:poo@notebook, mode:DOWN

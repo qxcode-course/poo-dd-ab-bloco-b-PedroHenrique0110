@@ -1,0 +1,169 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-14_13-12-37",
+            "content": "@@ -418,16 +418,17 @@\n input())\n+)\n %0A    chi\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-12-49",
+            "content": "@@ -30,17 +30,16 @@\n __(self)\n-:\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-13-06",
+            "content": "@@ -96,17 +96,16 @@\n or: int)\n-:\n %0A       \n@@ -260,25 +260,24 @@\n amanho(self)\n-:\n %0A        ret\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-13-15",
+            "content": "@@ -120,17 +120,16 @@\n or %25 2 =\n-=\n  1 and v\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-13-24",
+            "content": "@@ -146,17 +146,16 @@\n  or %3C 50\n-:\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-14-35",
+            "content": "@@ -148,11 +148,11 @@\n r %3C \n-=51\n+50:\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-14-56",
+            "content": "@@ -143,18 +143,18 @@\n  20 or %3C\n-=\n  \n+=\n 51%0A     \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-14-59",
+            "content": "@@ -138,20 +138,21 @@\n lor \n-%3C\n+%3E\n  20 or \n-%3E 50\n+%3C= 51\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-15-18",
+            "content": "@@ -146,17 +146,16 @@\n  or %3E 50\n-:\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-15-40",
+            "content": "@@ -131,21 +131,16 @@\n  and\n- 20 %3C\n  valor %3C\n  50:\n@@ -135,16 +135,24 @@\n  valor %3C\n+ 20 or %3E\n  50:%0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-16-03",
+            "content": "@@ -412,10 +412,20 @@\n o = \n-12\n+int(input())\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-16-28",
+            "content": "@@ -135,9 +135,9 @@\n  20 \n-%3E\n+%3C\n  val\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-16-42",
+            "content": "@@ -131,17 +131,17 @@\n  and 20 \n-%3C\n+%3E\n  valor %3C\n@@ -412,20 +412,10 @@\n o = \n-int(input())\n+12\n %0A   \n@@ -441,17 +441,16 @@\n (tamanho\n-%0A\n )%0A%0Aprint\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-16-59",
+            "content": "@@ -131,33 +131,25 @@\n  and\n- valor %3C\n  20 \n-or\n+%3C\n  valor \n-%3E\n+%3C\n  50\n+:\n %0A   \n@@ -451,16 +451,17 @@\n (tamanho\n+%0A\n )%0A%0Aprint\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-14_13-17-28",
+            "content": "@@ -152,17 +152,16 @@\n lor %3E 50\n-:\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-17-33",
+            "content": "@@ -416,16 +416,33 @@\n amanho =\n+ int(input())%0A   \n  chinela\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-17-53",
+            "content": "@@ -420,25 +420,8 @@\n ho =\n- int(input())%0A   \n  chi\n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-10-14_13-18-13",
+            "content": "@@ -421,10 +421,20 @@\n o = \n-12\n+int(input())\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-18-30",
+            "content": "@@ -421,10 +421,10 @@\n o = \n-36\n+12\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-18-56",
+            "content": "@@ -421,21 +421,10 @@\n o = \n-int(input()) \n+36\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-19-36",
+            "content": "@@ -306,20 +306,16 @@\n amanho%0A%0A\n-    \n chinela \n@@ -327,20 +327,16 @@\n nela()%0A%0A\n-    \n while ch\n@@ -360,20 +360,16 @@\n ) == 0:%0A\n-    \n     prin\n@@ -403,20 +403,16 @@\n inela%22)%0A\n-    \n     tama\n@@ -435,20 +435,16 @@\n )) %0A    \n-  \n-  \n chinela.\n@@ -464,20 +464,16 @@\n manho)%0A%0A\n-    \n print(%22P\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-46-30",
+            "content": "@@ -306,16 +306,20 @@\n amanho%0A%0A\n+    \n chinela \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-46-47",
+            "content": "@@ -327,16 +327,20 @@\n nela()%0A%0A\n+    \n while ch\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-46-56",
+            "content": "@@ -476,16 +476,20 @@\n manho)%0A%0A\n+    \n print(%22P\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-02",
+            "content": "@@ -429,10 +429,20 @@\n o = \n-13\n+int(input())\n  %0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-15",
+            "content": "@@ -426,16 +426,17 @@\n anho = 1\n+3\n  %0A      \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-21",
+            "content": "@@ -425,16 +425,17 @@\n manho = \n+1\n  %0A      \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-33",
+            "content": "@@ -429,10 +429,8 @@\n o = \n-36\n  %0A  \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-40",
+            "content": "@@ -426,17 +426,18 @@\n anho = 3\n-5\n+6 \n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_13-47-46",
+            "content": "@@ -426,16 +426,17 @@\n anho = 3\n+5\n %0A       \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_14-17-01",
+            "content": "@@ -115,16 +115,35 @@\n f valor \n+%25 2 == 1 and valor \n %3C 20 or \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_14-17-38",
+            "content": "@@ -119,27 +119,8 @@\n lor \n-%25 2 == 1 and valor \n %3C 20\n@@ -410,20 +410,9 @@\n o = \n-int(input())\n+3\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-14_14-17-49",
+            "content": "class Chinela:\n    def __init__(self):\n        self.__tamanho = 0\n\n    def setTamanho(self, valor: int):\n        if valor % 2 == 1 and valor < 20 or valor > 50:\n            print(\"fail: tamanho invalido\")\n            return\n        self.__tamanho = valor\n\n    def getTamanho(self):\n        return self.__tamanho\n\nchinela = Chinela()\n\nwhile chinela.getTamanho() == 0:\n        print(\"Digite seu tamanho de Chinela\")\n        tamanho = int(input())\n        chinela.setTamanho(tamanho)\n\nprint(\"Parabens, voce comprou uma chinela tamanho\", chinela.getTamanho())\n",
+            "lines": "21"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-14_13-28-53",
+            "content": "@@ -515,65 +515,8 @@\n reak\n-%0A        elif args%5B0%5D == %22show%22:%0A            print(roupa)\n %0A%0Ama\n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-10-14_13-29-25",
+            "content": "@@ -571,21 +571,8 @@\n oupa\n-.getTamanho()\n )%0A%0Am\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-10-14_13-30-00",
+            "content": "@@ -585,104 +585,8 @@\n o())\n-%0A        elif args%5B0%5D == %22size%22:%0A            valor = args%5B1%5D%0A            roupa.setTamanho(valor)\n %0A%0Ama\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-10-14_13-31-23",
+            "content": "@@ -678,14 +678,15 @@\n (valor)%0A\n+%0A\n main()\n",
+            "lines": "28"
+        },
+        {
+            "label": "2025-10-14_13-31-45",
+            "content": "@@ -566,17 +566,8 @@\n int(\n-%22size:%22, \n roup\n@@ -578,16 +578,18 @@\n tTamanho\n+()\n )%0A      \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-32-21",
+            "content": "@@ -576,16 +576,27 @@\n %22, roupa\n+.getTamanho\n )%0A      \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-32-28",
+            "content": "@@ -571,20 +571,21 @@\n size:%22, \n-size\n+roupa\n )%0A      \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-32-34",
+            "content": "@@ -571,21 +571,20 @@\n size:%22, \n-valor\n+size\n )%0A      \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-32-40",
+            "content": "@@ -580,21 +580,8 @@\n alor\n-.getTamanho()\n )%0A  \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-32-53",
+            "content": "@@ -571,21 +571,34 @@\n size:%22, \n-roupa\n+valor.getTamanho()\n )%0A      \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-33-12",
+            "content": "@@ -580,21 +580,8 @@\n oupa\n-.getTamanho()\n )%0A  \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-33-17",
+            "content": "@@ -284,62 +284,8 @@\n G%22) \n-%0A            return%0A            self.__tamanho = valor\n %0A%0A  \n",
+            "lines": "27"
+        },
+        {
+            "label": "2025-10-14_13-34-55",
+            "content": "@@ -334,27 +334,16 @@\n  = valor\n-           \n %0A%0A    de\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-35-18",
+            "content": "@@ -641,16 +641,29 @@\n %22, roupa\n+.getTamanho()\n )%0A      \n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-35-43",
+            "content": "@@ -636,17 +636,17 @@\n size:%22, \n-R\n+r\n oupa)%0A  \n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-35-52",
+            "content": "@@ -640,26 +640,13 @@\n :%22, \n-r\n+R\n oupa\n-.getTamanho()\n )%0A  \n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-36-46",
+            "content": "@@ -637,13 +637,11 @@\n ize:\n- \n %22, \n-(\n roup\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-37-42",
+            "content": "@@ -657,17 +657,16 @@\n manho())\n-)\n %0A       \n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_13-37-51",
+            "content": "@@ -707,34 +707,58 @@\n     \n-camis\n+valor = args%5B1%5D%0A            roup\n a.set\n-_t\n+T\n amanho(\n-args%5B1%5D\n+valor\n )%0Ama\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-10-14_14-24-57",
+            "content": "@@ -703,20 +703,21 @@\n         \n-roup\n+camis\n a.set_ta\n",
+            "lines": "28"
+        },
+        {
+            "label": "2025-10-14_14-25-07",
+            "content": "@@ -712,17 +712,18 @@\n oupa.set\n-T\n+_t\n amanho(a\n",
+            "lines": "28"
+        },
+        {
+            "label": "2025-10-14_14-25-26",
+            "content": "@@ -344,119 +344,13 @@\n     \n-%0A%0A    def show(self):%0A        print(self)%0A    %0A    def _str_(self):%0A    return (f%22size: (%7Bself.getTamanho()%7D)%22)\n+     \n %0A%0A  \n@@ -627,21 +627,46 @@\n   print(\n-roupa\n+%22size: %22, (roupa.getTamanho())\n )%0A      \n",
+            "lines": "28"
+        },
+        {
+            "label": "2025-10-14_16-40-14",
+            "content": "@@ -346,69 +346,8 @@\n   %0A%0A\n-    def getTamanho(self):%0A        return self.__tamanho%0A%0A    \n     \n@@ -453,16 +453,73 @@\n ()%7D)%22)%0A%0A\n+    def getTamanho(self):%0A        return self.__tamanho%0A%0A\n def main\n",
+            "lines": "34"
+        },
+        {
+            "label": "2025-10-14_16-40-38",
+            "content": "@@ -399,16 +399,20 @@\n amanho%0A%0A\n+    \n     def \n",
+            "lines": "34"
+        },
+        {
+            "label": "2025-10-14_16-40-55",
+            "content": "@@ -457,36 +457,32 @@\n ef _str_(self):%0A\n-    \n     return (f%22si\n",
+            "lines": "34"
+        },
+        {
+            "label": "2025-10-14_16-40-56",
+            "content": "@@ -66,65 +66,8 @@\n = %22%22\n-%0A%0A    def getTamanho(self):%0A        return self.__tamanho\n %0A   \n@@ -342,16 +342,73 @@\n       %0A%0A\n+    def getTamanho(self):%0A        return self.__tamanho%0A%0A\n     def \n",
+            "lines": "34"
+        },
+        {
+            "label": "2025-10-14_16-41-24",
+            "content": "@@ -1,24 +1,128 @@\n-class Roupa:%0A    def\n+@@ -1,8 +1,28 @@%0A+@@ -1,822 +1,55 @@%250A-%0A class Ro%0A@@ -25,17 +25,19 @@%0A s Roupa:%0A-%250A%0A+%25250A%0A     def %0A@@ -43,33 +43,35 @@%0A \n  __i\n@@ -126,32 +126,45 @@\n __init__(self):%0A\n+-%250A%0A+%25250A%0A \n         self.__t\n@@ -167,801 +167,2071 @@\n .__t\n-amanho: str = %22%22%0A%0A    def getTamanho(self):%0A        return self.__tamanho%0A    %0A    def setTamanho(self, valor: str):%0A        tamanhos_validos = %5B%22PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG%22%5D%0A        if valor not in tamanhos_validos:%0A            print(%22fail: Valor inv%C3%A1lido, tente PP, P, M, G, GG ou XG%22) %0A        else:%0A            self.__tamanho = valor      %0A%0A    def show(self):%0A        print(self)%0A    %0A    def _str_(self):%0A        return (f%22size: (%7Bself.getTamanho()%7D)%22)%0A%0Adef main():%0A    roupa = Roupa()%0A%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A        if args%5B0%5D == %22end%22:%0A            break%0A        elif args%5B0%5D == %22show%22:%0A            print(roupa)%0A        elif args%5B0%5D == %22size%22:%0A            valor = args%5B1%5D%0A            roupa.setTamanho(args%5B1%5D)%0Amain()\n+%0A@@ -88,12 +88,20 @@%0A r = %0A-%2522%2522%250A%250A%0A+%252522%252522%25250A%25250A%0A     %0A@@ -117,25 +117,27 @@%0A manho(self):%0A-%250A%0A+%25250A%0A         retu%0A@@ -153,22 +153,26 @@%0A _tamanho%0A-%250A%0A+%25250A%0A     %0A-%250A%0A+%25250A%0A     def %0A@@ -200,17 +200,19 @@%0A r: str):%0A-%250A%0A+%25250A%0A         %0A@@ -234,42 +234,72 @@%0A s = %0A-%255B%2522PP%2522, %2522P%2522, %2522M%2522, %2522G%2522, %2522GG%2522, %2522XG%2522%255D%250A%0A+%25255B%252522PP%252522, %252522P%252522, %252522M%252522, %252522G%252522, %252522GG%252522, %252522XG%252522%25255D%25250A%0A     %0A@@ -335,17 +335,19 @@%0A validos:%0A-%250A%0A+%25250A%0A         %0A@@ -356,17 +356,19 @@%0A   print(%0A-%2522%0A+%252522%0A fail: Va%0A@@ -378,9 +378,14 @@%0A  inv%0A-%25C3%25A1%0A+%2525C3%2525A1%0A lido%0A@@ -417,12 +417,16 @@%0A u XG%0A-%2522) %250A%0A+%252522) %25250A%0A     %0A@@ -434,17 +434,19 @@%0A    else:%0A-%250A%0A+%25250A%0A         %0A@@ -477,18 +477,22 @@%0A or      %0A-%250A%250A%0A+%25250A%25250A%0A     def %0A@@ -498,25 +498,27 @@%0A  show(self):%0A-%250A%0A+%25250A%0A         prin%0A@@ -528,14 +528,18 @@%0A elf)%0A-%250A%0A+%25250A%0A     %0A-%250A%0A+%25250A%0A     %0A@@ -554,17 +554,19 @@%0A _(self):%0A-%250A%0A+%25250A%0A         %0A@@ -578,17 +578,21 @@%0A n (f%0A-%2522%0A+%252522%0A size: (%0A-%257B%0A+%25257B%0A self%0A@@ -608,14 +608,22 @@%0A ho()%0A-%257D)%2522)%250A%250A%0A+%25257D)%252522)%25250A%25250A%0A def %0A@@ -629,17 +629,19 @@%0A  main():%0A-%250A%0A+%25250A%0A     roup%0A@@ -655,10 +655,14 @@%0A pa()%0A-%250A%250A%0A+%25250A%25250A%0A     %0A@@ -672,17 +672,19 @@%0A le True:%0A-%250A%0A+%25250A%0A         %0A@@ -697,17 +697,19 @@%0A  input()%0A-%250A%0A+%25250A%0A         %0A@@ -718,19 +718,23 @@%0A int(%0A-%2522$%2522%0A+%252522$%252522%0A  + line)%0A %250A   %0A@@ -729,17 +729,19 @@%0A  + line)%0A-%250A%0A+%25250A%0A         %0A@@ -759,17 +759,19 @@%0A .split()%0A-%250A%0A+%25250A%0A         %0A@@ -781,22 +781,32 @@%0A args%0A-%255B0%255D == %2522end%2522:%250A%0A+%25255B0%25255D == %252522end%252522:%25250A%0A     %0A@@ -818,17 +818,19 @@%0A    break%0A-%250A%0A+%25250A%0A         %0A@@ -842,23 +842,33 @@%0A args%0A-%255B0%255D%0A+%25255B0%25255D%0A  == %0A-%2522%0A+%252522%0A show%0A-%2522:%250A%0A+%252522:%25250A%0A     %0A@@ -887,17 +887,19 @@%0A t(roupa)%0A-%250A%0A+%25250A%0A         %0A@@ -911,23 +911,33 @@%0A args%0A-%255B0%255D%0A+%25255B0%25255D%0A  == %0A-%2522%0A+%252522%0A size%0A-%2522:%250A%0A+%252522:%25250A%0A     %0A@@ -969,15 +969,91 @@%0A args%0A-%255B1%255D)%250Amain()%0A+%25255B1%25255D)%25250Amain()%250A+@@ -350,13 +350,18 @@%25250A     %25250A-else:%25250A+    return%25250A %2525250A   %25250A%250A%0A\n",
+            "lines": "179"
+        },
+        {
+            "label": "2025-10-14_16-43-14",
+            "content": "@@ -451,15 +451,13 @@\n def \n-_\n _str_\n-_\n (sel\n",
+            "lines": "35"
+        },
+        {
+            "label": "2025-10-14_16-45-22",
+            "content": "class Roupa:\n    def __init__(self):\n        self.__tamanho: str = \"\"\n\n    def getTamanho(self):\n        return self.__tamanho\n    \n    def setTamanho(self, valor: str):\n        tamanhos_validos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        if valor not in tamanhos_validos:\n            print(\"fail: Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\") \n        else:\n            self.__tamanho = valor      \n\n    def show(self):\n        print(self)\n    \n    def __str__(self):\n        return (f\"size: ({self.getTamanho()})\")\n\ndef main():\n    roupa = Roupa()\n\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"show\":\n            print(roupa)\n        elif args[0] == \"size\":\n            valor = args[1]\n            roupa.setTamanho(args[1])\nmain()",
+            "lines": "35"
+        }
+    ]
+}
