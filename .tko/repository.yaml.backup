@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-ab-bloco-b-PedroHenrique0110/.tko/cache/poo.md
-  cache_timestamp: '2025-10-14 16:40:11'
+  cache_timestamp: '2025-10-22 18:15:24'
   filters: null
 expanded:
 - poo@campanha-principal
@@ -18,6 +18,8 @@ tasks:
   poo@chinela: '{rate:100, alone:10, study:20}'
   poo@camisa: '{rate:100, alone:10, study:20}'
   poo@roupa: '{rate:100, iagen:copilot, alone:9, study:40}'
+  poo@relogio: '{rate:100, iagen:_copilot, alone:8, study:40}'
+  poo@motoca: '{rate:100, human:_amigo, iagen:_copilot, alone:7, study:180}'
 flags:
   quests: 0
   tracks: 0
@@ -25,4 +27,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@notebook
+selected: poo@grafite

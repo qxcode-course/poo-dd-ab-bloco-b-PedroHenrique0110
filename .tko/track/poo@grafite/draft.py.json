@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-22_18-15-26",
+            "content": "class Lead:\n    def __init__(self, thickness: float, hardness: str, size: int):\n        self.__thickness = thickness\n        self.__hardness = hardness\n        self.__size = size\n\n    def usagePerSheet(self) -> float:\n        if self.__hardness == \"HB\":\n            return 1.0\n        elif self.__hardness == \"2B\":\n            return 2.0\n        elif self.__hardnes == \"4B\":\n            return 4.0\n        elif self.__hardness == \"6B\":\n            return 6.0\n        else:\n            return 0.0\n        \n    def \n\nclass Pencil:\n    def __init__(self, thickness: float):\n        self.__thickness = thickness\n        self.__tip = None\n\n    def inserir(self, thickness: float, hardness: str, size: int):\n        if thickness != self.__thickness:\n            print(\"fail: calibre incompativel\")\n            return\n        if self.__tip != None:\n            print(\"fail: ja existe grafite\")\n            return\n        self.__tip = Lead(thickness, hardness, size)\n\n    def remover(self):\n        if self.__tip == None:\n            print(\"fail: nao existe grafite\")\n            return\n        tip = self.__tip\n        self.__tip = None\n        return tip\n\n    def escrever(self)\n        if self.__tip == None:\n            print(\"fail:\")\n",
+            "lines": "45"
+        }
+    ]
+}
