@@ -2,8 +2,178 @@
     "patches": [
         {
             "label": "2025-10-22_18-15-26",
-            "content": "class Lead:\n    def __init__(self, thickness: float, hardness: str, size: int):\n        self.__thickness = thickness\n        self.__hardness = hardness\n        self.__size = size\n\n    def usagePerSheet(self) -> float:\n        if self.__hardness == \"HB\":\n            return 1.0\n        elif self.__hardness == \"2B\":\n            return 2.0\n        elif self.__hardnes == \"4B\":\n            return 4.0\n        elif self.__hardness == \"6B\":\n            return 6.0\n        else:\n            return 0.0\n        \n    def \n\nclass Pencil:\n    def __init__(self, thickness: float):\n        self.__thickness = thickness\n        self.__tip = None\n\n    def inserir(self, thickness: float, hardness: str, size: int):\n        if thickness != self.__thickness:\n            print(\"fail: calibre incompativel\")\n            return\n        if self.__tip != None:\n            print(\"fail: ja existe grafite\")\n            return\n        self.__tip = Lead(thickness, hardness, size)\n\n    def remover(self):\n        if self.__tip == None:\n            print(\"fail: nao existe grafite\")\n            return\n        tip = self.__tip\n        self.__tip = None\n        return tip\n\n    def escrever(self)\n        if self.__tip == None:\n            print(\"fail:\")\n",
+            "content": "@@ -1,118 +1,4 @@\n-#fiz mais de 40 linhas sem estar com o tko aberto quando percebi a%C3%AD eu abri ele por isso surgem 40 linhas do nada%0A\n clas\n@@ -1225,750 +1225,7 @@\n ail:\n- nao existe grafite%22)%0A            return%0A        if self.__tip.size %3C= 0:%0A            print(%22fail: tamanho insuficiente%22)%0A            return%0A        usage = self.__tip.usagePerSheet()%0A        tamanhofinal = self.__tip.size - usage%0A%0A        if tamanhofinal %3C 10:%0A            tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = 10%0A            print(%22fail: folha incompleta%22)%0A            return%0A            self.__tipe.size = tamanhofinal%0A%0A        def __str__(self):%0A            return f%22calibre: %7Bself.__thickness%7D, grafite: %7Bself.__tip%7D%22%0A%0A        %0Adef main():%0A    pencil = Pencil(0)%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A        if args%5B0%5D == %22end%22:%0A            break%0A%0A%0Amain()%0A\n+%22)\n %0A\n",
             "lines": "45"
+        },
+        {
+            "label": "2025-10-22_18-27-38",
+            "content": "@@ -602,16 +602,34 @@\n turn 0.0\n+%0A        %0A    def \n %0A%0Aclass \n@@ -1786,16 +1786,20 @@\n ofinal%0A%0A\n+    \n     def \n@@ -1805,32 +1805,36 @@\n  __str__(self):%0A\n+    \n         return f\n",
+            "lines": "76"
+        },
+        {
+            "label": "2025-10-22_18-28-11",
+            "content": "@@ -1253,33 +1253,32 @@\n f escrever(self)\n-:\n %0A        if self\n",
+            "lines": "74"
+        },
+        {
+            "label": "2025-10-22_18-28-21",
+            "content": "@@ -2050,64 +2050,8 @@\n eak%0A\n-        if args%5B0%5D == %22show%22:%0A            print(pencil)%0A\n %0A%0Ama\n",
+            "lines": "74"
+        },
+        {
+            "label": "2025-10-22_18-28-50",
+            "content": "@@ -2106,116 +2106,8 @@\n il)%0A\n-        if args%5B0%5D == %22init%22:%0A            thickness = float(args%5B1%5D)%0A            pencil = Pencil(thickness)%0A\n %0A%0Ama\n",
+            "lines": "76"
+        },
+        {
+            "label": "2025-10-22_18-29-40",
+            "content": "@@ -1796,82 +1796,8 @@\n f):%0A\n-        grafite_str = %22null%22 if self.__tip == None else f%22(%7Bself.__tip%7D)%22%0A\n     \n@@ -1852,19 +1852,18 @@\n e: %7B\n-grafite_str\n+self.__tip\n %7D%22%0A%0A\n",
+            "lines": "79"
+        },
+        {
+            "label": "2025-10-22_18-31-33",
+            "content": "@@ -2289,196 +2289,8 @@\n ss)%0A\n-        if args%5B0%5D == %22insert%22:%0A            thickness = float(args%5B1%5D)%0A            hardness = args%5B2%5D%0A            size = int(args%5B3%5D)%0A            pencil.inserir(thickness, hardness, size)%0A\n %0A%0Ama\n",
+            "lines": "80"
+        },
+        {
+            "label": "2025-10-22_18-32-52",
+            "content": "@@ -608,101 +608,8 @@\n .0%0A%0A\n-    def __str__(self):%0A        return f%22%7Bself.__thickness%7D:%7Bself.__hardness%7D:%7Bself.__size%7D%22%0A%0A\n clas\n@@ -1863,17 +1863,16 @@\n f.__tip%7D\n-:\n )%22%0A     \n",
+            "lines": "85"
+        },
+        {
+            "label": "2025-10-22_18-36-07",
+            "content": "@@ -644,17 +644,16 @@\n eturn f%22\n-%5B\n %7Bself.__\n@@ -694,17 +694,16 @@\n .__size%7D\n-%5D\n %22%0A%0Aclass\n",
+            "lines": "88"
+        },
+        {
+            "label": "2025-10-22_18-36-32",
+            "content": "@@ -1,2583 +1,104 @@\n-#fiz mais de 40 linhas sem estar com o tko aberto quando percebi a%C3%AD eu abri ele por isso surgem 40 linhas do nada%0Aclass Lead:%0A    def __init__(self, thickness: float, hardness: str, size: int):%0A        self.__thickness = thickness%0A        self.__hardness = hardness%0A        self.__size = size%0A%0A    def usagePerSheet(self) -%3E float:%0A        if self.__hardness == %22HB%22:%0A            return 1.0%0A        elif self.__hardness == %222B%22:%0A            return 2.0%0A        elif self.__hardnes == %224B%22:%0A            return 4.0%0A        elif self.__hardness == %226B%22:%0A            return 6.0%0A        else:%0A            return 0.0%0A%0A    def __str__(self):%0A        return f%22%5B%7Bself.__thickness%7D:%7Bself.__hardness%7D:%7Bself.__size%7D%5D%22%0A%0Aclass Pencil:%0A    def __init__(self, thickness: float):%0A        self.__thickness = thickness%0A        self.__tip = None%0A%0A    def inserir(self, thickness: float, hardness: str, size: int):%0A        if thickness != self.__thickness:%0A            print(%22fail: calibre incompativel%22)%0A            return%0A        if self.__tip != None:%0A            print(%22fail: ja existe grafite%22)%0A            return%0A        self.__tip = Lead(thickness, hardness, size)%0A%0A    def remover(self):%0A        if self.__tip == None:%0A            print(%22fail: nao existe grafite%22)%0A            return%0A        tip = self.__tip%0A        self.__tip = None%0A        return tip%0A%0A    def escrever(self):%0A        if self.__tip == None:%0A            print(%22fail: nao existe grafite%22)%0A            return%0A        if self.__tip.size %3C= 0:%0A            print(%22fail: tamanho insuficiente%22)%0A            return%0A        usage = self.__tip.usagePerSheet()%0A        tamanhofinal = self.__tip.size - usage%0A%0A        if tamanhofinal %3C 10:%0A            tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = 10%0A            print(%22fail: folha incompleta%22)%0A            return%0A            self.__tipe.size = tamanhofinal%0A%0A    def __str__(self):%0A        grafite_str = %22null%22 if self.__tip == None else f%22%7Bself.__tip%7D%22%0A        return f%22calibre: %7Bself.__thickness%7D, grafite: %7Bgrafite_str%7D%22%0A%0A        %0Adef main():%0A    pencil = Pencil(0)%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A        if args%5B0%5D == %22end%22:%0A            break%0A        if args%5B0%5D == %22show%22:%0A            print(pencil)%0A        if args%5B0%5D == %22init%22:%0A            thickness = float(args%5B1%5D)%0A            pencil = Pencil(thickness)%0A        if args%5B0%5D == %22insert%22:%0A            thickness = float(args%5B1%5D)%0A            hardness = args%5B2%5D%0A            size = int(args%5B3%5D)%0A            pencil.inserir(thickness, hardness, size)%0A%0A%0Amain()%0A\n+@@ -1945,16 +1945,17 @@%0A  else f%2522%0A+(%0A %257Bself.__%0A@@ -1959,16 +1959,17 @@%0A .__tip%257D:%0A+)%0A %2522%250A      \n %0A\n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-10-22_18-37-08",
+            "content": "@@ -1262,21 +1262,16 @@\n   return\n- None\n %0A       \n",
+            "lines": "88"
+        },
+        {
+            "label": "2025-10-22_18-38-30",
+            "content": "@@ -2575,69 +2575,8 @@\n ze)%0A\n-        if args%5B0%5D == %22remove%22:%0A            pencil.remover()%0A\n %0A%0Ama\n",
+            "lines": "88"
+        },
+        {
+            "label": "2025-10-22_18-40-44",
+            "content": "@@ -2636,69 +2636,8 @@\n r()%0A\n-        if args%5B0%5D == %22write%22:%0A            pencil.escrever()%0A\n %0A%0Ama\n",
+            "lines": "90"
+        },
+        {
+            "label": "2025-10-22_18-41-10",
+            "content": "@@ -1480,16 +1480,21 @@\n lf.__tip\n+.size\n  %3C= 0:%0A \n",
+            "lines": "92"
+        },
+        {
+            "label": "2025-10-22_18-41-51",
+            "content": "@@ -1480,21 +1480,16 @@\n lf.__tip\n-.size\n  %3C= 0:%0A \n",
+            "lines": "92"
+        },
+        {
+            "label": "2025-10-22_18-42-04",
+            "content": "@@ -608,121 +608,8 @@\n .0%0A%0A\n-    def getSize(self):%0A        return self.__size%0A%0A    def setSize(self, size: int):%0A        self.__size = size%0A%0A\n     \n",
+            "lines": "92"
+        },
+        {
+            "label": "2025-10-22_18-44-15",
+            "content": "@@ -1594,20 +1594,17 @@\n f.__tip.\n-getS\n+s\n ize %3C= 0\n",
+            "lines": "98"
+        },
+        {
+            "label": "2025-10-22_18-44-53",
+            "content": "@@ -1,8 +1,29 @@\n+@@ -1,2823 +1,59 @@%0A-\n #fiz mai\n@@ -84,9 +84,14 @@\n bi a\n-%C3%AD\n+%25C3%25AD\n  eu \n@@ -132,17 +132,19 @@\n  do nada\n-%0A\n+%250A\n class Le\n@@ -146,17 +146,19 @@\n ss Lead:\n-%0A\n+%250A\n     def \n@@ -208,33 +208,35 @@\n str, size: int):\n-%0A\n+%250A\n         self.__t\n@@ -247,33 +247,35 @@\n ness = thickness\n-%0A\n+%250A\n         self.__h\n@@ -288,25 +288,27 @@\n s = hardness\n-%0A\n+%250A\n         self\n@@ -313,34 +313,38 @@\n lf.__size = size\n-%0A%0A\n+%250A%250A\n     def usagePer\n@@ -360,17 +360,21 @@\n f) -\n-%3E\n+%253E\n  float:\n-%0A\n+%250A\n     \n@@ -403,14 +403,20 @@\n  == \n-%22HB%22:%0A\n+%2522HB%2522:%250A\n     \n@@ -433,17 +433,19 @@\n turn 1.0\n-%0A\n+%250A\n         \n@@ -472,14 +472,20 @@\n  == \n-%222B%22:%0A\n+%25222B%2522:%250A\n     \n@@ -502,17 +502,19 @@\n turn 2.0\n-%0A\n+%250A\n         \n@@ -540,14 +540,20 @@\n  == \n-%224B%22:%0A\n+%25224B%2522:%250A\n     \n@@ -570,17 +570,19 @@\n turn 4.0\n-%0A\n+%250A\n         \n@@ -609,14 +609,20 @@\n  == \n-%226B%22:%0A\n+%25226B%2522:%250A\n     \n@@ -639,17 +639,19 @@\n turn 6.0\n-%0A\n+%250A\n         \n@@ -655,17 +655,19 @@\n    else:\n-%0A\n+%250A\n         \n@@ -680,18 +680,22 @@\n turn 0.0\n-%0A%0A\n+%250A%250A\n     def \n@@ -704,25 +704,27 @@\n tSize(self):\n-%0A\n+%250A\n         retu\n@@ -733,26 +733,30 @@\n  self.__size\n-%0A%0A\n+%250A%250A\n     def setS\n@@ -768,33 +768,35 @@\n elf, size: int):\n-%0A\n+%250A\n         self.__s\n@@ -805,18 +805,22 @@\n e = size\n-%0A%0A\n+%250A%250A\n     def \n@@ -825,33 +825,35 @@\n f __str__(self):\n-%0A\n+%250A\n         return f\n@@ -856,11 +856,17 @@\n rn f\n-%22%5B%7B\n+%2522%255B%257B\n self\n@@ -873,27 +873,31 @@\n .__thickness\n-%7D:%7B\n+%257D:%257B\n self.__hardn\n@@ -903,11 +903,15 @@\n ness\n-%7D:%7B\n+%257D:%257B\n self\n@@ -921,13 +921,23 @@\n size\n-%7D%5D%22%0A%0A\n+%257D%255D%2522%250A%250A\n clas\n@@ -945,17 +945,19 @@\n  Pencil:\n-%0A\n+%250A\n     def \n@@ -989,17 +989,19 @@\n  float):\n-%0A\n+%250A\n         \n@@ -1028,17 +1028,19 @@\n hickness\n-%0A\n+%250A\n         \n@@ -1056,18 +1056,22 @@\n p = None\n-%0A%0A\n+%250A%250A\n     def \n@@ -1128,17 +1128,19 @@\n e: int):\n-%0A\n+%250A\n         \n@@ -1172,17 +1172,19 @@\n ickness:\n-%0A\n+%250A\n         \n@@ -1189,25 +1189,27 @@\n       print(\n-%22\n+%2522\n fail: calibr\n@@ -1222,19 +1222,23 @@\n mpativel\n-%22)%0A\n+%2522)%250A\n         \n@@ -1239,33 +1239,35 @@\n           return\n-%0A\n+%250A\n         if self.\n@@ -1276,25 +1276,27 @@\n tip != None:\n-%0A\n+%250A\n             \n@@ -1297,25 +1297,27 @@\n       print(\n-%22\n+%2522\n fail: ja exi\n@@ -1319,35 +1319,39 @@\n a existe grafite\n-%22)%0A\n+%2522)%250A\n             retu\n@@ -1344,33 +1344,35 @@\n           return\n-%0A\n+%250A\n         self.__t\n@@ -1407,18 +1407,22 @@\n s, size)\n-%0A%0A\n+%250A%250A\n     def \n@@ -1427,33 +1427,35 @@\n f remover(self):\n-%0A\n+%250A\n         if self.\n@@ -1460,33 +1460,35 @@\n f.__tip == None:\n-%0A\n+%250A\n             prin\n@@ -1481,33 +1481,35 @@\n           print(\n-%22\n+%2522\n fail: nao existe\n@@ -1508,35 +1508,39 @@\n o existe grafite\n-%22)%0A\n+%2522)%250A\n             retu\n@@ -1542,25 +1542,27 @@\n  return None\n-%0A\n+%250A\n         tip \n@@ -1573,17 +1573,19 @@\n lf.__tip\n-%0A\n+%250A\n         \n@@ -1601,17 +1601,19 @@\n p = None\n-%0A\n+%250A\n         \n@@ -1622,18 +1622,22 @@\n turn tip\n-%0A%0A\n+%250A%250A\n     def \n@@ -1647,25 +1647,27 @@\n rever(self):\n-%0A\n+%250A\n         if s\n@@ -1684,17 +1684,19 @@\n == None:\n-%0A\n+%250A\n         \n@@ -1701,25 +1701,27 @@\n       print(\n-%22\n+%2522\n fail: nao ex\n@@ -1732,19 +1732,23 @@\n  grafite\n-%22)%0A\n+%2522)%250A\n         \n@@ -1749,33 +1749,35 @@\n           return\n-%0A\n+%250A\n         if self.\n@@ -1792,17 +1792,19 @@\n tSize ()\n-%0A\n+%250A\n         \n@@ -1809,25 +1809,27 @@\n       print(\n-%22\n+%2522\n fail: tamanh\n@@ -1842,19 +1842,23 @@\n ficiente\n-%22)%0A\n+%2522)%250A\n         \n@@ -1859,33 +1859,35 @@\n           return\n-%0A\n+%250A\n         usage = \n@@ -1912,17 +1912,19 @@\n rSheet()\n-%0A\n+%250A\n         \n@@ -1961,18 +1961,22 @@\n  - usage\n-%0A%0A\n+%250A%250A\n         \n@@ -1995,14 +1995,18 @@\n nal \n-%3C\n+%253C\n  10:\n-%0A\n+%250A\n     \n@@ -2048,17 +2048,19 @@\n ize - 10\n-%0A\n+%250A\n         \n@@ -2083,17 +2083,19 @@\n ize = 10\n-%0A\n+%250A\n         \n@@ -2104,17 +2104,19 @@\n   print(\n-%22\n+%2522\n fail: fo\n@@ -2133,11 +2133,15 @@\n leta\n-%22)%0A\n+%2522)%250A\n     \n@@ -2154,17 +2154,19 @@\n   return\n-%0A\n+%250A\n         \n@@ -2200,18 +2200,22 @@\n nhofinal\n-%0A%0A\n+%250A%250A\n     def \n@@ -2228,17 +2228,19 @@\n _(self):\n-%0A\n+%250A\n         \n@@ -2257,14 +2257,18 @@\n r = \n-%22\n+%2522\n null\n-%22\n+%2522\n  if \n@@ -2296,10 +2296,14 @@\n se f\n-%22%7B\n+%2522%257B\n self\n@@ -2308,19 +2308,25 @@\n lf.__tip\n-%7D%22%0A\n+%257D%2522%250A\n         \n@@ -2333,17 +2333,19 @@\n return f\n-%22\n+%2522\n calibre:\n@@ -2345,17 +2345,19 @@\n alibre: \n-%7B\n+%257B\n self.__t\n@@ -2364,17 +2364,19 @@\n hickness\n-%7D\n+%257D\n , grafit\n@@ -2382,9 +2382,11 @@\n te: \n-%7B\n+%257B\n graf\n@@ -2396,20 +2396,28 @@\n _str\n-%7D%22%0A%0A\n+%257D%2522%250A%250A\n         \n %0Adef\n@@ -2412,17 +2412,19 @@\n         \n-%0A\n+%250A\n def main\n@@ -2426,17 +2426,19 @@\n  main():\n-%0A\n+%250A\n     penc\n@@ -2451,17 +2451,19 @@\n encil(0)\n-%0A\n+%250A\n     whil\n@@ -2469,17 +2469,19 @@\n le True:\n-%0A\n+%250A\n         \n@@ -2494,17 +2494,19 @@\n  input()\n-%0A\n+%250A\n         \n@@ -2515,19 +2515,23 @@\n int(\n-%22$%22\n+%2522$%2522\n  + line)\n %0A   \n@@ -2526,17 +2526,19 @@\n  + line)\n-%0A\n+%250A\n         \n@@ -2556,17 +2556,19 @@\n .split()\n-%0A\n+%250A\n         \n@@ -2578,22 +2578,32 @@\n args\n-%5B0%5D == %22end%22:%0A\n+%255B0%255D == %2522end%2522:%250A\n     \n@@ -2615,17 +2615,19 @@\n    break\n-%0A\n+%250A\n         \n@@ -2637,23 +2637,33 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n show\n-%22:%0A\n+%2522:%250A\n     \n@@ -2683,17 +2683,19 @@\n (pencil)\n-%0A\n+%250A\n         \n@@ -2705,23 +2705,33 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n init\n-%22:%0A\n+%2522:%250A\n     \n@@ -2752,37 +2752,43 @@\n ess = float(args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n             penc\n@@ -2809,17 +2809,19 @@\n ickness)\n-%0A\n+%250A\n         \n@@ -2831,25 +2831,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n insert\n-%22:%0A\n+%2522:%250A\n     \n@@ -2892,13 +2892,19 @@\n args\n-%5B1%5D)%0A\n+%255B1%255D)%250A\n     \n@@ -2930,12 +2930,18 @@\n args\n-%5B2%5D%0A\n+%255B2%255D%250A\n     \n@@ -2967,13 +2967,19 @@\n args\n-%5B3%5D)%0A\n+%255B3%255D)%250A\n     \n@@ -3027,17 +3027,19 @@\n s, size)\n-%0A\n+%250A\n         \n@@ -3049,25 +3049,35 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n remove\n-%22:%0A\n+%2522:%250A\n     \n@@ -3100,17 +3100,19 @@\n emover()\n-%0A\n+%250A\n         \n@@ -3122,24 +3122,34 @@\n args\n-%5B0%5D\n+%255B0%255D\n  == \n-%22\n+%2522\n write\n-%22:%0A\n+%2522:%250A\n     \n@@ -3177,15 +3177,100 @@\n er()\n-%0A%0A%0Amain()%0A\n+%250A%250A%250Amain()%250A%0A+@@ -1602,18 +1602,21 @@%250A getSize %250A-()%250A+%25253C= 0:%250A %25250A       %0A %250A\n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-10-22_18-45-17",
+            "content": "@@ -1,2849 +1,49 @@\n-#fiz mais de 40 linhas sem estar com o tko aberto quando percebi a%C3%AD eu abri ele por isso surgem 40 linhas do nada%0Aclass Lead:%0A    def __init__(self, thickness: float, hardness: str, size: int):%0A        self.__thickness = thickness%0A        self.__hardness = hardness%0A        self.__size = size%0A%0A    def usagePerSheet(self) -%3E float:%0A        if self.__hardness == %22HB%22:%0A            return 1.0%0A        elif self.__hardness == %222B%22:%0A            return 2.0%0A        elif self.__hardnes == %224B%22:%0A            return 4.0%0A        elif self.__hardness == %226B%22:%0A            return 6.0%0A        else:%0A            return 0.0%0A%0A    def getSize(self):%0A        return self.__size%0A%0A    def setSize(self, size: int):%0A        self.__size = size%0A%0A    def __str__(self):%0A        return f%22%5B%7Bself.__thickness%7D:%7Bself.__hardness%7D:%7Bself.__size%7D%5D%22%0A%0Aclass Pencil:%0A    def __init__(self, thickness: float):%0A        self.__thickness = thickness%0A        self.__tip = None%0A%0A    def inserir(self, thickness: float, hardness: str, size: int):%0A        if thickness != self.__thickness:%0A            print(%22fail: calibre incompativel%22)%0A            return%0A        if self.__tip != None:%0A            print(%22fail: ja existe grafite%22)%0A            return%0A        self.__tip = Lead(thickness, hardness, size)%0A%0A    def remover(self):%0A        if self.__tip == None:%0A            print(%22fail: nao existe grafite%22)%0A            return None%0A        tip = self.__tip%0A        self.__tip = None%0A        return tip%0A%0A    def escrever(self):%0A        if self.__tip == None:%0A            print(%22fail: nao existe grafite%22)%0A            return%0A        size = self.__tip.getSize()%0A        if size %3C= 10:%0A            print(%22fail: tamanho insuficiente%22)%0A            return%0A        usage = self.__tip.usagePerSheet()%0A        tamanhofinal = self.__tip.size - usage%0A%0A        if tamanhofinal %3C 10:%0A            tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = 10%0A            print(%22fail: folha incompleta%22)%0A            return%0A            self.__tipe.size = tamanhofinal%0A%0A    def __str__(self):%0A        grafite_str = %22null%22 if self.__tip == None else f%22%7Bself.__tip%7D%22%0A        return f%22calibre: %7Bself.__thickness%7D, grafite: %7Bgrafite_str%7D%22%0A%0A        %0Adef main():%0A    pencil = Pencil(0)%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A        if args%5B0%5D == %22end%22:%0A            break%0A        if args%5B0%5D == %22show%22:%0A            print(pencil)%0A        if args%5B0%5D == %22init%22:%0A            thickness = float(args%5B1%5D)%0A            pencil = Pencil(thickness)%0A        if args%5B0%5D == %22insert%22:%0A            thickness = float(args%5B1%5D)%0A            hardness = args%5B2%5D%0A            size = int(args%5B3%5D)%0A            pencil.inserir(thickness, hardness, size)%0A        if args%5B0%5D == %22remove%22:%0A            pencil.remover()%0A        if args%5B0%5D == %22write%22:%0A            pencil.escrever()%0A%0A%0Amain()%0A\n+@@ -1604,17 +1604,16 @@%0A tSize ()%0A-:%0A %250A       \n %0A\n",
+            "lines": "4"
+        },
+        {
+            "label": "2025-10-22_18-46-38",
+            "content": "@@ -468,25 +468,24 @@\n lf.__hardnes\n-s\n  == %224B%22:%0A  \n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-47-02",
+            "content": "@@ -1765,16 +1765,27 @@\n final = \n+self.__tip.\n size - u\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-47-55",
+            "content": "@@ -1825,30 +1825,76 @@\n     \n-self.__tip.setSize(\n+tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = \n 10\n-)\n %0A   \n@@ -1915,36 +1915,32 @@\n (%22fail: \n-tamanho insuficiente\n+folha incompleta\n %22)%0A     \n@@ -1952,16 +1952,60 @@\n   return\n+%0A            self.__tipe.size = tamanhofinal\n %0A%0A    de\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-51-40",
+            "content": "@@ -1825,76 +1825,30 @@\n     \n-tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = \n+self.__tip.setSize(\n 10\n+)\n %0A   \n@@ -1873,24 +1873,28 @@\n il: \n-folha incompleta\n+tamanho insuficiente\n %22)%0A \n@@ -1914,52 +1914,8 @@\n turn\n-%0A            self.__tipe.size = tamanhofinal\n %0A%0A  \n",
+            "lines": "97"
+        },
+        {
+            "label": "2025-10-22_18-51-58",
+            "content": "@@ -1825,30 +1825,76 @@\n     \n-self.__tip.setSize(\n+tamanhoatual = self.__tip.size - 10%0A            self.__tip.size = \n 10\n-)\n %0A   \n@@ -1915,36 +1915,32 @@\n (%22fail: \n-tamanho insuficiente\n+folha incompleta\n %22)%0A     \n@@ -1953,25 +1953,26 @@\n  return%0A\n-%0A\n+  \n         \n self.__t\n@@ -1955,32 +1955,34 @@\n eturn%0A          \n+  \n self.__tip.setSi\n@@ -1979,17 +1979,17 @@\n _tip\n+e\n .s\n-etSize(\n+ize = \n tama\n@@ -1996,17 +1996,16 @@\n nhofinal\n-)\n %0A%0A    de\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-53-56",
+            "content": "@@ -1873,24 +1873,28 @@\n il: \n-folha incompleta\n+tamanho insuficiente\n %22)%0A \n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-56-50",
+            "content": "@@ -780,11 +780,8 @@\n ness\n-.1f\n %7D:%7Bs\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_18-59-42",
+            "content": "@@ -776,17 +776,16 @@\n hickness\n-:\n .1f%7D:%7Bse\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-00-08",
+            "content": "@@ -819,28 +819,8 @@\n e%7D%5D%22\n-.reolace('.0:', ':')\n %0A%0Acl\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-01-04",
+            "content": "@@ -818,17 +818,17 @@\n ze%7D%5D%22.re\n-p\n+o\n lace('.0\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-01-15",
+            "content": "@@ -753,143 +753,39 @@\n     \n-thickness_str = str(int(self.__thickness)) if self.__thickness.is_integer() else str(self.__thickness)%0A        return f%22%5B%7Bthickness_str\n+return f%22%5B%7Bself.__thickness:.1f\n %7D:%7Bs\n@@ -815,16 +815,36 @@\n _size%7D%5D%22\n+.replace('.0:', ':')\n %0A%0Aclass \n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-01-38",
+            "content": "@@ -153,18 +153,20 @@\n ckness: \n-in\n+floa\n t, hardn\n@@ -753,35 +753,143 @@\n     \n-return f%22%5B%7Bself.__thickness\n+thickness_str = str(int(self.__thickness)) if self.__thickness.is_integer() else str(self.__thickness)%0A        return f%22%5B%7Bthickness_str\n %7D:%7Bs\n",
+            "lines": "100"
+        },
+        {
+            "label": "2025-10-22_19-02-09",
+            "content": "@@ -859,18 +859,20 @@\n ckness: \n-in\n+floa\n t):%0A    \n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-02-31",
+            "content": "@@ -954,34 +954,36 @@\n elf, thickness: \n-in\n+floa\n t, hardness: str\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-02-41",
+            "content": "@@ -145,36 +145,34 @@\n elf, thickness: \n-floa\n+in\n t, hardness: str\n@@ -379,16 +379,18 @@\n return 1\n+.0\n %0A       \n@@ -440,16 +440,18 @@\n return 2\n+.0\n %0A       \n@@ -501,16 +501,18 @@\n return 4\n+.0\n %0A       \n@@ -562,16 +562,18 @@\n return 6\n+.0\n %0A       \n@@ -599,16 +599,18 @@\n return 0\n+.0\n %0A%0A    de\n@@ -859,20 +859,18 @@\n ckness: \n-floa\n+in\n t):%0A    \n@@ -962,20 +962,18 @@\n ckness: \n-floa\n+in\n t, hardn\n",
+            "lines": "99"
+        },
+        {
+            "label": "2025-10-22_19-03-28",
+            "content": "#fiz mais de 40 linhas sem estar com o tko aberto quando percebi a\u00ed eu abri ele por isso surgem 40 linhas do nada\nclass Lead:\n    def __init__(self, thickness: float, hardness: str, size: int):\n        self.__thickness = thickness\n        self.__hardness = hardness\n        self.__size = size\n\n    def usagePerSheet(self) -> float:\n        if self.__hardness == \"HB\":\n            return 1\n        elif self.__hardness == \"2B\":\n            return 2\n        elif self.__hardness == \"4B\":\n            return 4\n        elif self.__hardness == \"6B\":\n            return 6\n        else:\n            return 0\n\n    def getSize(self):\n        return self.__size\n\n    def setSize(self, size: int):\n        self.__size = size\n\n    def __str__(self):\n        return f\"[{self.__thickness}:{self.__hardness}:{self.__size}]\"\n\nclass Pencil:\n    def __init__(self, thickness: float):\n        self.__thickness = thickness\n        self.__tip = None\n\n    def inserir(self, thickness: float, hardness: str, size: int):\n        if thickness != self.__thickness:\n            print(\"fail: calibre incompativel\")\n            return\n        if self.__tip != None:\n            print(\"fail: ja existe grafite\")\n            return\n        self.__tip = Lead(thickness, hardness, size)\n\n    def remover(self):\n        if self.__tip == None:\n            print(\"fail: nao existe grafite\")\n            return None\n        tip = self.__tip\n        self.__tip = None\n        return tip\n\n    def escrever(self):\n        if self.__tip == None:\n            print(\"fail: nao existe grafite\")\n            return\n        size = self.__tip.getSize()\n        if size <= 10:\n            print(\"fail: tamanho insuficiente\")\n            return\n        usage = self.__tip.usagePerSheet()\n        tamanhofinal = size - usage\n\n        if tamanhofinal < 10:\n            self.__tip.setSize(10)\n            print(\"fail: folha incompleta\")\n            return\n\n        self.__tip.setSize(tamanhofinal)\n\n    def __str__(self):\n        grafite_str = \"null\" if self.__tip == None else f\"{self.__tip}\"\n        return f\"calibre: {self.__thickness}, grafite: {grafite_str}\"\n\n        \ndef main():\n    pencil = Pencil(0)\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n        if args[0] == \"end\":\n            break\n        if args[0] == \"show\":\n            print(pencil)\n        if args[0] == \"init\":\n            thickness = float(args[1])\n            pencil = Pencil(thickness)\n        if args[0] == \"insert\":\n            thickness = float(args[1])\n            hardness = args[2]\n            size = int(args[3])\n            pencil.inserir(thickness, hardness, size)\n        if args[0] == \"remove\":\n            pencil.remover()\n        if args[0] == \"write\":\n            pencil.escrever()\n\n\nmain()\n\n",
+            "lines": "99"
         }
     ]
 }
