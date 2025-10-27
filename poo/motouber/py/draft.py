@@ -28,8 +28,8 @@ class Moto:
     def getDriver(self):
         return self.__motorista
 
-    def setPass(self, passageiro: Pessoa):
-        self.__passageiro = passageiro
+    def setDriver(self):
+        self.__motorista = motorista
 
     def getPass(self):
         return self.__passageiro
