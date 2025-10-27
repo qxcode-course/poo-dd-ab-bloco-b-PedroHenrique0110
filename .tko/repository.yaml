@@ -8,11 +8,10 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: /workspaces/poo-dd-ab-bloco-b-PedroHenrique0110/.tko/cache/poo.md
-  cache_timestamp: '2025-10-22 23:58:04'
+  cache_timestamp: '2025-10-27 18:26:25'
   filters: null
 expanded:
 - poo@campanha-principal
-- poo@bloco_b-modificadores-de-acesso
 - poo@bloco_b-agregação-simples
 tasks:
   poo@chinela: '{rate:100, alone:10, study:20}'
@@ -21,6 +20,7 @@ tasks:
   poo@relogio: '{rate:100, iagen:_copilot, alone:8, study:40}'
   poo@motoca: '{rate:100, human:_amigo, iagen:_copilot, alone:7, study:180}'
   poo@grafite: '{rate:100, iagen:_copilot, alone:8, study:75}'
+  poo@motouber: '{rate:100, human:_amigo, alone:8, study:120}'
 flags:
   quests: 0
   tracks: 0

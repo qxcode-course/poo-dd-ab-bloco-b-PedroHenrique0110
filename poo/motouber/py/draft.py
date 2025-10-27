@@ -11,6 +11,12 @@ class Pessoa:
     
     def setDinheiro(self, valor: int):
         self.__dinheiro = valor
+    
+    def pagar(self, valor: int):
+        self.__dinheiro -= valor
+
+    def receber(self, valor: int):
+        self.__dinheiro += valor
 
     def __str__(self):
         return f"{self.getNome()}:{self.getDinheiro()}"
@@ -19,7 +25,6 @@ class Moto:
     def __init__(self):
         self.__motorista: Pessoa = None
         self.__passageiro: Pessoa = None
-        self.__kmviagem = 0
         self.__custo = 0
 
     def setDriver(self, motorista: Pessoa):
@@ -28,11 +33,14 @@ class Moto:
     def getDriver(self):
         return self.__motorista
 
-    def setDriver(self):
-        self.__motorista = motorista
+    def setPass(self, passageiro: Pessoa):
+        self.__passageiro = passageiro
 
     def getPass(self):
         return self.__passageiro
+
+    def getCusto(self):
+        return self.__custo
 
     def subir(self, passageiro: Pessoa):
         if self.__motorista == None:
@@ -45,18 +53,20 @@ class Moto:
 
 
     def descer(self):
-        if self.__passageiro == None:
-            print("fail: moto sem passageiro")
-            return None
-            passageiro = self.__passageiro
-            pagamento = min(passageiro.getDinheiro(), self.__custo)
-            passageiro.setDinheiro(passageiro.getDinheiro() - pagamento)
-            self.__motorista.setDinheiro(self.__motorista.getDinheiro() + self.__custo)
-            resultado = f"{passageiro.getNome()}:{pagamento} left"
+        if self.getPass().getDinheiro() < self.getCusto():
+            print("fail: Passenger does not have enough money")
+            self.getPass().pagar(self.getCusto())
+            self.getDriver().receber(self.getCusto())
+            self.getPass().setDinheiro(0)
+            print(f"{self.getPass()} left")
             self.__passageiro = None
             self.__custo = 0
-            self.__kmviagem = 0
-            return resultado
+        else:
+            self.getPass().pagar(self.getCusto())
+            self.getDriver().receber(self.getCusto())
+            print(f"{self.getPass()} left")
+            self.__passageiro = None
+            self.__custo = 0
 
     def dirigir(self, km:int):
         if self.__motorista == None:
@@ -65,7 +75,6 @@ class Moto:
         if self.__passageiro == None:
             print("fail: moto sem passageiro")
             return
-        self.__kmviagem += km
         self.__custo += km
 
     def __str__(self):
@@ -96,8 +105,6 @@ def main():
             km = int(args[1])
             moto.dirigir(km)
         elif args[0] == "leavePass":
-            resultado = moto.descer()
-            if resultado != None:
-                print(resultado)
+            moto.descer()
 
 main()
